@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-right: 20px; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-left li {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+nav li {
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+}
+
+.sidebar-left {
+  width: 250px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+svg {
+  margin-right: 5px;
+}
+
+img {
+  margin-right: 5px;
+}
+
+.sidebar-right {
+  margin-left: auto; 
+  width: 250px; 
+  padding: 20px; 
+}
+
+
+
