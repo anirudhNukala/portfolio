@@ -1,11 +1,11 @@
 import React from "react";
 
-const Mindagile = () => {
+const PM = () => {
   return (
     <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px" }}>
       <img
-        src="/images/mindagile_logo.jpeg"
-        alt="Mindagile Logo"
+        src="/images/acc_logo.jpeg"
+        alt="Aggie Coding Club Logo"
         style={{
           width: "48px",
           height: "48px",
@@ -15,20 +15,20 @@ const Mindagile = () => {
       />
 
       <div>
-        <p style={{ margin: 0 }}>Software Development Intern</p>
+        <p style={{ margin: 0 }}>Project Manager</p>
         <p style={{ fontSize: "0.8em", color: "#888", margin: 0, marginBottom: "5px" }}>
-          Mindagile Consulting
+          Aggie Coding Club
         </p>
 
         <ul style={{ listStyleType: "disc", margin: 0, paddingInlineStart: "20px" }}>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            Productionized an existing web app that used a GPT-3 API to generate math quizzes for middle-school-aged students
+          Managed the construction of the back end on a team of around 15 people
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            Constructed the app using Pug.js and Express.js and successfully deployed it to Google App Engine
+          Integrated Firebase into the project to allow for user authentication and a database
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            Integrated Auth0 into the app to successfully build a user authentication system
+          This project aimed to provide students who were gym enthusiasts an opportunity to network with each other
           </li>
         </ul>
       </div>
@@ -36,4 +36,4 @@ const Mindagile = () => {
   );
 };
 
-export default Mindagile;
+export default PM;

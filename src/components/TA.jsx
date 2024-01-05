@@ -1,10 +1,10 @@
 import React from "react";
 
-const Mindagile = () => {
+const TA = () => {
   return (
     <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px" }}>
       <img
-        src="/images/mindagile_logo.jpeg"
+        src="/images/tamu_logo.jpeg"
         alt="Mindagile Logo"
         style={{
           width: "48px",
@@ -15,20 +15,23 @@ const Mindagile = () => {
       />
 
       <div>
-        <p style={{ margin: 0 }}>Software Development Intern</p>
+        <p style={{ margin: 0 }}>Undergraduate Teaching Assistant</p>
         <p style={{ fontSize: "0.8em", color: "#888", margin: 0, marginBottom: "5px" }}>
-          Mindagile Consulting
+          Texas A&M College of Engineering
         </p>
 
         <ul style={{ listStyleType: "disc", margin: 0, paddingInlineStart: "20px" }}>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            Productionized an existing web app that used a GPT-3 API to generate math quizzes for middle-school-aged students
+          Demonstrated a strong grasp of Python programming to assist students with coding labs.
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            Constructed the app using Pug.js and Express.js and successfully deployed it to Google App Engine
+          Offered valuable academic advising to freshmen, guiding them through their transition to college.
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            Integrated Auth0 into the app to successfully build a user authentication system
+          Conducted office hours, addressing student inquiries, clarifying doubts, and additional guidance.
+          </li>
+          <li style={{ fontSize: "12px", marginBottom: "5px" }}>
+          Assumed responsibility for grading and proctoring homework, quizzes, and tests.
           </li>
         </ul>
       </div>
@@ -36,4 +39,4 @@ const Mindagile = () => {
   );
 };
 
-export default Mindagile;
+export default TA;
