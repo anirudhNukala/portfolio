@@ -23,16 +23,16 @@ const TA = () => {
 
         <ul style={{ listStyleType: "disc", margin: 0, paddingInlineStart: "20px" }}>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-          Demonstrated a strong grasp of Python programming to assist students with coding labs.
+          Demonstrated a strong grasp of Python programming to assist students with coding labs
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-          Offered valuable academic advising to freshmen, guiding them through their transition to college.
+          Offered valuable academic advising to freshmen, guiding them through their transition to college
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-          Conducted office hours, addressing student inquiries, clarifying doubts, and additional guidance.
+          Conducted office hours, addressing student inquiries, clarifying doubts, and additional guidance
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-          Assumed responsibility for grading and proctoring homework, quizzes, and tests.
+          Assumed responsibility for grading and proctoring homework, quizzes, and tests
           </li>
         </ul>
       </div>

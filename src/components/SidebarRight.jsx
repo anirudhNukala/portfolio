@@ -3,7 +3,7 @@ import React from "react";
 
 const SidebarRight = () => {
     return (
-        <div className="sidebar-right">
+        <div className="sidebar-right" style={{ marginTop: "125px" }}>
             <h2>Activities</h2>
             <ul>
                 <li>

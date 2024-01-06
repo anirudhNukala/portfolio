@@ -17,15 +17,23 @@ ReactDOM.render(
       <SidebarLeft />
       <div className="content">
         <Navbar />
-        <Mindagile />
-        <TA />
-        <PM />
-        <ClassMate />
-        <Digestive />
-        <College />
-        <div className='container'>
-          <SidebarRight />
+        <div style={{ display: 'flex' }}>
+          <div style={{ flex: 1 }}>
+            <h1>Professional Experience</h1>
+            <Mindagile />
+            <TA />
+            <PM />
+          </div>
+          <div className='projects' style={{ flex: 1 }}>
+            <h1>Projects</h1>
+            <ClassMate />
+            <Digestive />
+            <College />
+          </div>
         </div>
+      </div>
+      <div className='container'>
+        <SidebarRight />
       </div>
     </div>
   </React.StrictMode>,
