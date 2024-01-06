@@ -2,7 +2,7 @@ import React from "react";
 
 const Mindagile = () => {
   return (
-    <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px" }}>
+    <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px", marginBottom: "10px" }}>
       <img
         src="/images/mindagile_logo.jpeg"
         alt="Mindagile Logo"
@@ -11,6 +11,7 @@ const Mindagile = () => {
           height: "48px",
           borderRadius: "50%",
           marginRight: "10px",
+          border: "1px solid #000"
         }}
       />
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const TA = () => {
   return (
-    <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px" }}>
+    <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px", marginBottom: "10px" }}>
       <img
         src="/images/tamu_logo.jpeg"
         alt="Mindagile Logo"
@@ -11,6 +11,7 @@ const TA = () => {
           height: "48px",
           borderRadius: "50%",
           marginRight: "10px",
+          border: "1px solid #000"
         }}
       />
 
