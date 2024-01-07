@@ -23,15 +23,24 @@ const PM = () => {
 
         <ul style={{ listStyleType: "disc", margin: 0, paddingInlineStart: "20px" }}>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-          Managed the construction of the back end on a team of around 15 people
+            Managed the construction of the back end on a team of around 15 people
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-          Integrated Firebase into the project to allow for user authentication and a database
+            Integrated Firebase into the project to allow for user authentication and a database
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-          This project aimed to provide students who were gym enthusiasts an opportunity to network with each other
+            This project aimed to provide students who were gym enthusiasts an opportunity to network with each other
           </li>
         </ul>
+      </div>
+
+      <div style={{ marginLeft: "auto" }}>
+        <p style={{ fontSize: "0.8em", color: "#888", margin: 0, marginBottom: "5px", whiteSpace: "nowrap" }}>
+          College Station, TX
+        </p>
+        <p style={{ fontSize: "0.8em", color: "#888", margin: 0 }}>
+          09/2022 - 11/2023
+        </p>
       </div>
     </div>
   );

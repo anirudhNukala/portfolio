@@ -1,11 +1,10 @@
 import React from "react";
 
-
 const SidebarRight = () => {
     return (
         <div className="sidebar-right" style={{ marginTop: "125px" }}>
             <h2>Activities</h2>
-            <ul>
+            <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
                 <li>
                     Craig and Galen Brown Engineering Honors Program
                 </li>
@@ -17,13 +16,13 @@ const SidebarRight = () => {
                 </li>
             </ul>
             <h2>Certifications</h2>
-            <ul>
+            <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
                 <li>
                     Entry Level Python Certificate (Python Institute)
                 </li>
             </ul>
             <h2>Coursework</h2>
-            <ul>
+            <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
                 <li>
                     Program Designs and Concepts (C++)
                 </li>

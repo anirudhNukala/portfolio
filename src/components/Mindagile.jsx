@@ -15,7 +15,7 @@ const Mindagile = () => {
         }}
       />
 
-      <div>
+      <div style={{ flex: 1 }}>
         <p style={{ margin: 0 }}>Software Development Intern</p>
         <p style={{ fontSize: "0.8em", color: "#888", margin: 0, marginBottom: "5px" }}>
           Mindagile Consulting
@@ -32,6 +32,16 @@ const Mindagile = () => {
             Integrated Auth0 into the app to successfully build a user authentication system
           </li>
         </ul>
+      </div>
+
+      <div style={{ marginLeft: "auto" }}>
+        <p style={{ fontSize: "0.8em", color: "#888", margin: 0 }}>
+          Dallas, TX
+        </p>
+        
+        <p style={{ fontSize: "0.8em", color: "#888", margin: 0, marginTop: "5px" }}>
+          05/2023 - 08/2023
+        </p>
       </div>
     </div>
   );

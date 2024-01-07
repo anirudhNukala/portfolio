@@ -4,10 +4,7 @@ const College = () => {
   return (
     <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px", marginBottom: "10px" }}>
       <div>
-        <p style={{ margin: 0 }}>College Chance Calculator</p>
-        <div style={{ fontSize: "0.8em", color: "#888", margin: 0, marginBottom: "5px", fontStyle: "italic", }}>
-          <a href="https://github.com/anirudhNukala/collegeChanceCalculator">https://github.com/anirudhNukala/collegeChanceCalculator</a>
-        </div>
+        <p style={{ margin: 0, marginBottom: "10px" }}>College Chance Calculator</p>
 
         <ul style={{ listStyleType: "disc", margin: 0, paddingInlineStart: "20px" }}>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
@@ -20,6 +17,12 @@ const College = () => {
           Results gave one of three indicators (green, yellow, red) which reflected the user’s chance of admission
           </li>
         </ul>
+      </div>
+
+      <div style={{ marginLeft: "auto" }}>
+        <a href="https://github.com/anirudhNukala/collegeChanceCalculator" target="_blank">
+          <img src="images/github_logo.png" alt="GitHub Link" style={{ width: "48px", height: "48px" }} />
+        </a>
       </div>
     </div>
   );
