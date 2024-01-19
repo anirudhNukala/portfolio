@@ -32,6 +32,9 @@ const Navbar = () => {
                     <img src="/images/react_logo.png" alt="React Logo" style={imageStyle} />
                 </li>
                 <li style={circleContainerStyle}>
+                    <img src="/images/cpp_logo.png" alt="C++ Logo" style={imageStyle} />
+                </li>
+                <li style={circleContainerStyle}>
                     <img src="/images/gcp_logo.png" alt="GCP Logo" style={imageStyle} />
                 </li>
                 <li style={circleContainerStyle}>
@@ -52,9 +55,7 @@ const Navbar = () => {
                 <li style={circleContainerStyle}>
                     <img src="/images/typescript_logo.png" alt="TypeScript Logo" style={imageStyle} />
                 </li>
-                <li style={circleContainerStyle}>
-                    <img src="/images/auth0_logo.png" alt="Auth0 Logo" style={imageStyle} />
-                </li>
+                
             </ul>
         </nav>
     );
