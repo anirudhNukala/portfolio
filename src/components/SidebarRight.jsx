@@ -1,6 +1,6 @@
-import React from "react";
 
-const SidebarRight = () => {
+
+export default function SidebarRight() {
     return (
         <div className="sidebar-right" style={{ marginTop: "125px" }}>
             <h2>Activities</h2>
@@ -12,32 +12,31 @@ const SidebarRight = () => {
                     Aggie Coding Club
                 </li>
                 <li>
-                    Aggie Data Science Club
+                    Texas A&M Computing Society (ACM)
                 </li>
             </ul>
             <h2>Certifications</h2>
             <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
                 <li>
-                    Entry Level Python Certificate (Python Institute)
+                Certified Entry Level Python Programmer (PCEP-30-01)
                 </li>
             </ul>
             <h2>Coursework</h2>
             <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
                 <li>
-                    Program Designs and Concepts (C++)
+                   Data Structures and Algorithms
                 </li>
                 <li>
-                    Discrete Math
+                    Discrete Math (Honors)
                 </li>
                 <li>
-                    Statistics I
+                    Computer Architecture
                 </li>
                 <li>
-                    Linear Algebra
+                    Functional & Object Oriented Programming
                 </li>
             </ul>
         </div>
     )
 }
 
-export default SidebarRight;

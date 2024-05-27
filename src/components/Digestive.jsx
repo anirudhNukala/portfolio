@@ -1,6 +1,6 @@
-import React from "react";
 
-const Digestive = () => {
+
+export default function Digestive() {
   return (
     <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px", marginBottom: "10px" }}>
       <div>
@@ -17,12 +17,10 @@ const Digestive = () => {
       </div>
 
       <div style={{ marginLeft: "auto" }}>
-        <a href="https://github.com/anirudhNukala/digestiveSystemStudy" target="_blank">
+        <a href="https://github.com/anirudhNukala/digestiveSystemStudy" target="_blank" rel="noopener noreferrer">
           <img src="images/github_logo.png" alt="GitHub Link" style={{ width: "48px", height: "48px" }} />
         </a>
       </div>
     </div>
   );
-};
-
-export default Digestive;
+}

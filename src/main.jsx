@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import Navbar from './components/Navbar';
 import './styles.css'; 
 import SidebarLeft from './components/SidebarLeft';
@@ -10,8 +10,15 @@ import PM from './components/PM';
 import ClassMate from './components/ClassMate';
 import Digestive from './components/Digestive';
 import College from './components/College';
+import DiscreteTA from './components/DiscreteTA';
+import Research from './components/Research';
+import Ntrepid from './components/Ntrepid';
+import ProfRec from './components/ProfRec';
+import STEM4Stems from './STEM4Stems';
 
-ReactDOM.render(
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
     <div className="container">
       <SidebarLeft />
@@ -20,15 +27,20 @@ ReactDOM.render(
         <div style={{ display: 'flex' }}>
           <div style={{ flex: 1 }}>
             <h1>Professional Experience</h1>
-            <Mindagile />
+            <Ntrepid />
+            <Research />
+            <DiscreteTA />
             <TA />
+            <Mindagile />
             <PM />
           </div>
           <div className='projects' style={{ flex: 1 }}>
             <h1>Projects</h1>
+            <STEM4Stems />
+            <ProfRec />
             <ClassMate />
-            <Digestive />
             <College />
+            <Digestive />
           </div>
         </div>
       </div>
@@ -36,6 +48,5 @@ ReactDOM.render(
         <SidebarRight />
       </div>
     </div>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );

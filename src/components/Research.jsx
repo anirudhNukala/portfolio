@@ -1,11 +1,9 @@
-
-
-export default function PM() {
+export default function Research() {
   return (
     <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px", marginBottom: "10px" }}>
       <img
-        src="/images/acc_logo.jpeg"
-        alt="Aggie Coding Club Logo"
+        src="/images/tamu_health.jpeg"
+        alt="Mindagile Logo"
         style={{
           width: "48px",
           height: "48px",
@@ -15,31 +13,31 @@ export default function PM() {
         }}
       />
 
-      <div>
-        <p style={{ margin: 0 }}>Project Manager</p>
+      <div style={{ flex: 1 }}>
+        <p style={{ margin: 0 }}>Undergraduate Research Assistant</p>
         <p style={{ fontSize: "0.8em", color: "#888", margin: 0, marginBottom: "5px" }}>
-          Aggie Coding Club
+          Texas A&M Health Sciences Center
         </p>
 
         <ul style={{ listStyleType: "disc", margin: 0, paddingInlineStart: "20px" }}>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            Managed the construction of the back end on a team of around 15 people
+          Contributed to OliviaHealth, a grant-funded project that enhances maternal and familial care
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            Integrated Firebase into the project to allow for user authentication and a database
+          Developed an interactive user interface to easily allow patients to fill out maternal care forms
           </li>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
-            This project aimed to provide students who were gym enthusiasts an opportunity to network with each other
+          Worked closely with a small team and gave weekly demos
           </li>
         </ul>
       </div>
 
       <div style={{ marginLeft: "auto" }}>
-        <p style={{ fontSize: "0.8em", color: "#888", margin: 0, marginBottom: "5px", whiteSpace: "nowrap" }}>
+        <p style={{ fontSize: "0.8em", color: "#888", margin: 0, marginBottom: "5px", wordWrap: "break-word" }}>
           College Station, TX
         </p>
         <p style={{ fontSize: "0.8em", color: "#888", margin: 0 }}>
-          09/2022 - 11/2023
+          02/2024 - Present
         </p>
       </div>
     </div>

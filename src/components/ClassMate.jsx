@@ -1,10 +1,10 @@
-import React from "react";
 
-const ClassMate = () => {
+
+export default function ClassMate() {
   return (
     <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px", marginBottom: "10px" }}>
       <div>
-        <p style={{ margin: 0, marginBottom: "10px" }}>ClassMate (TAMUHack)</p>
+        <p style={{ margin: 0, marginBottom: "10px" }}>ClassMate</p>
 
         <ul style={{ listStyleType: "disc", margin: 0, paddingInlineStart: "20px" }}>
           <li style={{ fontSize: "12px", marginBottom: "5px" }}>
@@ -17,12 +17,10 @@ const ClassMate = () => {
       </div>
 
       <div style={{ marginLeft: "auto" }}>
-        <a href="https://github.com/arihants04/ClassMate" target="_blank">
+        <a href="https://github.com/arihants04/ClassMate" target="_blank" rel="noopener noreferrer">
           <img src="images/github_logo.png" alt="GitHub Link" style={{ width: "48px", height: "48px" }} />
         </a>
       </div>
     </div>
   );
-};
-
-export default ClassMate;
+}

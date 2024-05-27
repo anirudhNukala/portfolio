@@ -1,6 +1,6 @@
-import React from "react";
 
-const Mindagile = () => {
+
+export default function Mindagile() {
   return (
     <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px", marginBottom: "10px" }}>
       <img
@@ -45,6 +45,5 @@ const Mindagile = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Mindagile;

@@ -1,7 +1,7 @@
-import React from 'react';
+
 import '../styles.css';
 
-const Navbar = () => {
+export default function Navbar() {
     const circleContainerStyle = {
         width: '72px', 
         height: '72px',
@@ -59,6 +59,4 @@ const Navbar = () => {
             </ul>
         </nav>
     );
-};
-
-export default Navbar;
+}

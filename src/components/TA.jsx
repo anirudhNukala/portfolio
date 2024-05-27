@@ -1,6 +1,6 @@
-import React from "react";
 
-const TA = () => {
+
+export default function TA() {
   return (
     <div style={{ display: "flex", alignItems: "flex-start", border: "1px solid #000", maxWidth: "400px", padding: "20px", marginBottom: "10px" }}>
       <img
@@ -42,11 +42,9 @@ const TA = () => {
           College Station, TX
         </p>
         <p style={{ fontSize: "0.8em", color: "#888", margin: 0 }}>
-          08/2023 - Present
+          08/2023 - 12/2023
         </p>
       </div>
     </div>
   );
-};
-
-export default TA;
+}
